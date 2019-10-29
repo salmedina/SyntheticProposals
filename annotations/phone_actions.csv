@@ -1,0 +1,11 @@
+file,start_frame,end_frame,total_frames,framerate,secs
+EyesJapanDataset/Eyes_Japan_Dataset/aita/gesture_etc-22-mobile receive-aita_poses.npz,570,3230,3600,120,22.16666667
+EyesJapanDataset/Eyes_Japan_Dataset/aita/gesture_etc-23-mobile call-aita_poses.npz,580,3010,3600,120,20.25
+EyesJapanDataset/Eyes_Japan_Dataset/hamada/gesture_etc-23-mobile call-hamada_poses.npz,350,2850,3571,120,20.83333333
+EyesJapanDataset/Eyes_Japan_Dataset/hamada/gesture_etc-22-mobile receive-hamada_poses.npz,365,2665,3571,120,19.16666667
+EyesJapanDataset/Eyes_Japan_Dataset/ichige/gesture_etc-23-mobile call-ichige_poses.npz,315,2700,3600,120,19.875
+EyesJapanDataset/Eyes_Japan_Dataset/kaiwa/gesture_etc-22-mobile receive-kaiwa_poses.npz,750,3050,3600,120,19.16666667
+EyesJapanDataset/Eyes_Japan_Dataset/kaiwa/gesture_etc-23-mobile call-kaiwa_poses.npz,580,3600,3600,120,25.16666667
+EyesJapanDataset/Eyes_Japan_Dataset/kudo/gesture_etc-22-mobile receive-kudo_poses.npz,600,3770,3960,120,26.41666667
+EyesJapanDataset/Eyes_Japan_Dataset/kudo/gesture_etc-23-mobile call-kudo_poses.npz,500,3295,3960,120,23.29166667
+EyesJapanDataset/Eyes_Japan_Dataset/shiono/gesture_etc-23-mobile call-shiono_poses.npz,465,2925,3600,120,20.5
