@@ -3,7 +3,7 @@ import os.path as osp
 from easydict import EasyDict
 from collections import defaultdict
 
-virat_dataset_dir = '/home/zal/Data/VIRAT/clean_clips'
+virat_dataset_dir = '/mnt/Alfheim/Data/VIRAT/Proposals/gt'
 virat_anno_path = '../../annotations/ssp1.json'
 
 virat_anno = EasyDict(json.load(open(virat_anno_path, 'r')))
@@ -15,7 +15,7 @@ for name, value in virat_anno.database.items():
         print(f'{name},{value.subset},{value.annotations.label}')
         count[value.subset] += 1
 
-        if not osp.exists(osp.join(virat_dataset_dir, f'{name}.mp4')):
+        if not osp.exists(osp.join(virat_dataset_dir, f'{name}')):
             missing_count[value.subset] += 1
 
 print('Annotation count')
